@@ -1,10 +1,13 @@
-function threeSum(string) {
-// write your code here
+function decimalToBinary(num){
+    let binaryStr = ""
+    while(num>0){
+        let rem = num%2;
+        binaryStr = binaryStr + rem.toString()
+ 
+        num = Math.floor(num/2)
+    }
   
-// let decimal = 10;
-let redix = 2;
-let binary = string.toString( redix );
-console.log(binary);
+    return binaryStr.split("").reverse().join("")
 }
-
-module.exports = threeSum;
+ 
+module.exports = decimalToBinary;

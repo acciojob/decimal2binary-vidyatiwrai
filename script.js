@@ -1,9 +1,9 @@
-function threeSum(arr, target) {
+function threeSum(arr) {
 // write your code here
   
 // let decimal = 10;
 let redix = 2;
-let binary = decimal.toString( redix );
+let binary = arr.toString( redix );
 console.log(binary);
 }
 

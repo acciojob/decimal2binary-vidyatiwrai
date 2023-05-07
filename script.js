@@ -1,11 +1,15 @@
 function decimalToBinary(num){
-    let binaryStr = ""
-    while(num>0){
-        let rem = num%2;
-        binaryStr = binaryStr + rem.toString()
- 
-        num = Math.floor(num/2)
+       let bin = 0;
+    let rem, i = 1, step = 1;
+    while (x != 0) {
+        rem = x % 2;
+        x = parseInt(x / 2);
+        bin = bin + rem * i;
+        i = i * 10;
     }
+    console.log(`Binary: ${bin}`);
+}
+    
   
  return parseInt(binaryStr.split("").reverse().join(""))
  

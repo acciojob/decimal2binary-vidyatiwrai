@@ -13,6 +13,6 @@ function decimalToBinary(decimal) {
 }
     
   
- return parseInt(binaryStr.split("").reverse().join(""))
+ // return parseInt(binaryStr.split("").reverse().join(""))
  
 module.exports = decimalToBinary;

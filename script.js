@@ -1,7 +1,7 @@
 
-function decimalToBinary(decimal) {
+function decimalToBinary(n) {
   let binary = '';
-  let quotient = decimal;
+  let quotient = n;
 
   while (quotient !== 0) {
     const remainder = quotient % 2;

@@ -1,3 +1,4 @@
+
 function decimalToBinary(decimal) {
   let binary = '';
   let quotient = decimal;
